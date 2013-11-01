@@ -36,7 +36,7 @@ python setup.py install -O1 --skip-build --root %{buildroot}
 rm -rf %{buildroot}/usr/templates
 
 %files
-%doc README.txt ajax_select/LICENSE.txt ajax_select/docs.txt
+%doc  ajax_select/LICENSE.txt 
 %{py_puresitedir}/ajax_select
 %{py_puresitedir}/django_ajax_selects-%{version}-py%{py_ver}.egg-info
 
