@@ -1,2 +1,4 @@
+removed_sources:
+  django-ajax-selects-1.1.4.tar.gz: e4400ebf289520ab9a10fff0c1a3ee9814c532c2
 sources:
-  "django-ajax-selects-1.1.4.tar.gz": e4400ebf289520ab9a10fff0c1a3ee9814c532c2
+  django-ajax-selects-1.2.5.tar.gz: 72b4d924882e6038f5d5fd9112377065584d825f
