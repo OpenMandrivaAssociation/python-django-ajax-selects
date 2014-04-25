@@ -1,9 +1,10 @@
 %define realname django-ajax-selects
 
 Name:           python-%{realname}
-Version:        1.2.5
+Version:        1.3.4
 Release:        1
-Summary:        jQuery-powered auto-complete fields for ForeignKey and ManyToMany fields
+Summary:        JQuery-powered auto-complete fields for ForeignKey and ManyToMany fields
+
 Group:          Development/Python
 License:        MIT and GPLv3
 URL:            http://pypi.python.org/pypi/django-ajax-selects
@@ -40,16 +41,5 @@ rm -rf %{buildroot}/usr/templates
 %{py_puresitedir}/ajax_select
 %{py_puresitedir}/django_ajax_selects-%{version}-py%{py_ver}.egg-info
 
-
-%changelog
-* Fri Nov 12 2010 Ahmad Samir <ahmadsamir@mandriva.org> 1.1.4-1mdv2011.0
-+ Revision: 596475
-- Update to 1.1.4
-- Improve spec
-- Correct the license tag
-
-* Tue Nov 02 2010 Ahmad Samir <ahmadsamir@mandriva.org> 1.0-1mdv2011.0
-+ Revision: 591970
-- import python-django-ajax-selects
 
 
