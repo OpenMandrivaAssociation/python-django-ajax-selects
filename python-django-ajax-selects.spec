@@ -2,7 +2,7 @@
 
 Name:           python-%{realname}
 Version:        1.3.4
-Release:        1
+Release:        2
 Summary:        JQuery-powered auto-complete fields for ForeignKey and ManyToMany fields
 
 Group:          Development/Python
