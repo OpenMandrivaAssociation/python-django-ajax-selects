@@ -12,6 +12,7 @@ Source:         https://pypi.python.org/packages/source/d/django_ajax_selects/dj
 BuildArch:      noarch
 Requires:       python-django
 BuildSystem:	python
+BuildRequires:	python%{pyver}dist(poetry-core)
 
 %description
 Enables editing of `ForeignKey`, `ManyToMany` and simple text fields using the
