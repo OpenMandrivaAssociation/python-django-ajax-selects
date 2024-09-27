@@ -1,7 +1,7 @@
 %define realname django-ajax-selects
 
 Name:           python-%{realname}
-Version:        3.0.2
+Version:        3.0.3
 Release:        1
 Summary:        JQuery-powered auto-complete fields for ForeignKey and ManyToMany fields
 
