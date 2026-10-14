@@ -3,7 +3,7 @@
 
 Name:           python-django-ajax-selects
 Version:        3.0.3
-Release:        2
+Release:        3
 Summary:        JQuery-powered auto-complete fields for ForeignKey and ManyToMany fields
 Group:          Development/Python
 License:        MIT AND GPL-3.0-only
